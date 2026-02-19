@@ -1,0 +1,27 @@
+name: Semantic release
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  project-directory: ./
+
+jobs:
+  release:
+    name: Release and Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: lts/*
+
+      - run: npm i -g semantic-release @semantic-release/{git,changelog}
+      - run: semantic-release
+        id: next-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
