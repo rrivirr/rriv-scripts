@@ -22,6 +22,5 @@ jobs:
 
       - run: npm i -g semantic-release @semantic-release/{git,changelog}
       - run: semantic-release
-        id: next-version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
