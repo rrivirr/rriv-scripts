@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/rrivirr/rriv-scripts/compare/v1.0.0...v1.0.1) (2026-02-28)
+
+
+### Bug Fixes
+
+* release clear-eeprom.elf ([ce08b45](https://github.com/rrivirr/rriv-scripts/commit/ce08b45af8ebeacf74a9b45e0b3641ad96d34339))
+
 # 1.0.0 (2026-02-19)
 
 
