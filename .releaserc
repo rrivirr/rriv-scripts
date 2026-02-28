@@ -26,7 +26,8 @@
       "@semantic-release/github",
       {
         "assets": [
-          "probe-rs/diagnostic.elf"
+          "probe-rs/diagnostic.elf",
+          "probe-rs/clear-eeprom.elf"
         ]
       }
     ]
