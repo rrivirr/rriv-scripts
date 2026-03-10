@@ -1,4 +1,4 @@
-probe-rs download ./clear-eeprom.elf \
+probe-rs download ./clear-eeprom-configurations.elf \
 	--chip STM32F103RE  \
  	--protocol swd \
         --connect-under-reset \

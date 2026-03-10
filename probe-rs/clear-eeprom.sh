@@ -1,4 +1,4 @@
-probe-rs download ./clear-eeprom.elf \
+probe-rs download ./clear-eeprom-complete.elf \
 	--chip STM32F103RE  \
  	--protocol swd \
 	--allow-erase-all \
