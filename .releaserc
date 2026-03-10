@@ -27,7 +27,8 @@
       {
         "assets": [
           "probe-rs/diagnostic.elf",
-          "probe-rs/clear-eeprom.elf"
+          "probe-rs/clear-eeprom-complete.elf",
+          "probe-rs/clear-eeprom-configurations.elf"
         ]
       }
     ]
