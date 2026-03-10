@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/rrivirr/rriv-scripts/compare/v1.0.1...v1.1.0) (2026-03-10)
+
+
+### Features
+
+* configured names of clear eeprom firmwares ([7b1d390](https://github.com/rrivirr/rriv-scripts/commit/7b1d3907e19da3945ac89bda5bf1762602804954))
+
 ## [1.0.1](https://github.com/rrivirr/rriv-scripts/compare/v1.0.0...v1.0.1) (2026-02-28)
 
 
