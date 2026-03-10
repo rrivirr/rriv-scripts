@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/rrivirr/rriv-scripts/compare/v1.1.0...v1.1.1) (2026-03-10)
+
+
+### Bug Fixes
+
+* add the elf files ([af01115](https://github.com/rrivirr/rriv-scripts/commit/af011150fbb6f783ccb2684ad1e8be4204eff730))
+
 # [1.1.0](https://github.com/rrivirr/rriv-scripts/compare/v1.0.1...v1.1.0) (2026-03-10)
 
 
