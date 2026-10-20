@@ -1,0 +1,20 @@
+# To install this file
+# 1. Download this file to your computer
+# 2. Copy this file to /etc/udev/rules.d/ using a command such as `sudo cp ~/Downloads/69-rriv.rules /etc/udev/rules.d/`
+# 3. Reload udev rules using the command `sudo udevadm control --reload`
+
+#
+# This file is available under the GNU General Public License v2.0
+
+ACTION!="add|change", GOTO="rriv_rules_end"
+
+SUBSYSTEM=="gpio", MODE="0660", GROUP="plugdev", TAG+="uaccess"
+
+SUBSYSTEM!="usb|tty|hidraw", GOTO="rriv_rules_end"
+
+# Please keep this list sorted by VID:PID
+
+# RRIV Board
+ATTRS{idVendor}=="0483", ATTRS{idProduct}=="0029", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
+LABEL="rriv_rules_end"
