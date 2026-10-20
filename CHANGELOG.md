@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/rrivirr/rriv-scripts/compare/v1.1.2...v1.2.0) (2026-10-20)
+
+
+### Features
+
+* create install-udev.sh script ([da17c16](https://github.com/rrivirr/rriv-scripts/commit/da17c16344f0d6eb95051c54f92b673f0a929bbc))
+* improve the firmware for complete eeprom clearing ([d8119d8](https://github.com/rrivirr/rriv-scripts/commit/d8119d8c6328d746198f3e9c10de1028e42073a0))
+
 ## [1.1.2](https://github.com/rrivirr/rriv-scripts/compare/v1.1.1...v1.1.2) (2026-03-10)
 
 
